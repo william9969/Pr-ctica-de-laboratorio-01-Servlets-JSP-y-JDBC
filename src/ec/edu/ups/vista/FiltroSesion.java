@@ -18,7 +18,7 @@ import ec.edu.ups.modelo.Usuario;
 /**
  * Servlet Filter implementation class FiltroEmpresa
  */
-@WebFilter({"/FiltroSesion"/*,"/Admin/*","/User/*"*/})
+@WebFilter({"/FiltroSesion","/Admin/*","/User/*"})
 public class FiltroSesion implements Filter {
 
     public FiltroSesion() { 
